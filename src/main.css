@@ -1,5 +1,22 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+body{
+    font-family: system-ui, Roboto, sans-serif;
+}
+
 .bg-body-tertiary{
     background-color: red;
+}
+
+.not-found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cake{
+    font-size: 5rem;
 }

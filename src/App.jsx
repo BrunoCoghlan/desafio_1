@@ -6,6 +6,7 @@ const App = () => {
   return (
     <>
       <Navegador />
+      {/* utilizando las route dentro de routes de react-routers */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/contactos' element={<Contactos />} />
